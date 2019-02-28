@@ -1,7 +1,11 @@
 //Colors
 $colorText: #3C3C3C;
+$colorTextLight: #737373;
+$colorBorder: #6A6A6A;
+$colorEmphasize: #FBD649;
 
 @import "reset";
 @import "layout";
 @import "header";
+@import "stats";
 

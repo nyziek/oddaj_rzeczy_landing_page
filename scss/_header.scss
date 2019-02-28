@@ -31,11 +31,11 @@
 
 #header .register {
     padding: 0.3rem;
-    border: 1px solid #FBD649;
+    border: 1px solid $colorEmphasize;
 }
 
 #header a {
-    color: #737373;
+    color: $colorTextLight;
 }
 
 // Menu
@@ -63,7 +63,7 @@
 
 #header .menuItem--active {
     padding: 0.6rem 0.45rem;
-    border: 1px solid #6A6A6A;
+    border: 1px solid $colorBorder;
 }
 
 // Welcome info and buttons
