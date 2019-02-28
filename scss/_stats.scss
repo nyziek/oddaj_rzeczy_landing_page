@@ -1,5 +1,5 @@
 #stats {
-    width: 100vw;
+    width: 100%;
     height: 19.2rem;
     background-color: $colorEmphasize;
     background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
@@ -19,18 +19,21 @@
 }
 
 #stats .statsInfo .statsInfoNumber {
+    padding-top: 0.2rem;
     font-size: 4.5rem;
     font-weight: 300;
 }
 
 #stats .statsInfo .statsInfoStat {
+    padding-top: 0.4rem;
+    padding-bottom: 1rem;
     text-transform: uppercase;
     font-size: 0.9rem;
-    padding-bottom: 1.5rem;
 }
 
 #stats .statsInfo .statsInfoDescription {
-    font-size: 0.8rem;
     padding-bottom: 2rem;
+    font-size: 0.8rem;
     font-weight: 300;
+    line-height: 1.3rem;
 }

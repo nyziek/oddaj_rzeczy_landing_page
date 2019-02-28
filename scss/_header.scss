@@ -1,5 +1,5 @@
 #header {
-    width: 100vw;
+    width: 100%;
     height: 48.2rem;
     background-image: url("../images/header_start_img.jpg");
     background-size: contain;
@@ -7,6 +7,7 @@
 }
 
 #header .container {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -16,7 +17,7 @@
 
 #header .account {
     margin-top: 2.5rem;
-    margin-right: 6.6rem;
+    margin-right: 6.2rem;
     font-size: 0.7rem;
 }
 
@@ -42,7 +43,7 @@
 
 #header .menu {
     margin-top: 1.15rem;
-    margin-right: 5.4rem;
+    margin-right: 5rem;
     font-size: 0.9rem;
 }
 
@@ -97,4 +98,3 @@
     width: 15.5rem;
     height: 6rem;
 }
-
