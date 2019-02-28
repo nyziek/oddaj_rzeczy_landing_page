@@ -1,0 +1,100 @@
+#header {
+    width: 100vw;
+    height: 48.2rem;
+    background-image: url("../images/header_start_img.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+// Log-in and Sign-up
+
+#header .account {
+    margin-top: 2.5rem;
+    margin-right: 6.6rem;
+    font-size: 0.7rem;
+}
+
+#header .login,
+#header .register {
+    padding: 0.3rem;
+}
+
+#header .login {
+    margin-right: 0.4rem;
+}
+
+#header .register {
+    padding: 0.3rem;
+    border: 1px solid #FBD649;
+}
+
+#header a {
+    color: #737373;
+}
+
+// Menu
+
+#header .menu {
+    margin-top: 1.15rem;
+    margin-right: 5.4rem;
+    font-size: 0.9rem;
+}
+
+#header .menuItems {
+    list-style-type: none;
+}
+
+#header .menuItem {
+    display: inline-block;
+    padding: 0.6rem 0.12rem;
+    border: 1px solid transparent;
+}
+
+#header .menuItem a {
+    padding: 0.6rem 1rem;
+    color: $colorText;
+}
+
+#header .menuItem--active {
+    padding: 0.6rem 0.45rem;
+    border: 1px solid #6A6A6A;
+}
+
+// Welcome info and buttons
+
+#header .welcomeInfoBox {
+    width: 34rem;
+    font-size: 1.9rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+#header .welcomeInfo {
+    margin-top: 13.35rem;
+}
+
+#header .welcomeInfo p {
+    margin-bottom: 0.1rem;
+}
+
+#header .welcomeInfoBox img {
+    margin: 2rem 0;
+}
+
+#header .headerButtonsHolder {
+    margin-top: 2.85rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .headerButtonsHolder button {
+    width: 15.5rem;
+    height: 6rem;
+}
+

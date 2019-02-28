@@ -1,0 +1,25 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: $colorText;
+}
+
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background: transparent;
+    border: 1px solid #6A6A6A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75rem;
+    padding: 0 2rem 0.5rem 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
