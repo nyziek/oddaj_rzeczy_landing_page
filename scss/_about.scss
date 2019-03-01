@@ -1,0 +1,35 @@
+#about {
+    width: 100%;
+    height: 42.8rem;
+    background-image: url("../images/about.jpg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#about .container {
+    height: 100%;
+}
+
+#about .aboutInfo {
+    width: 30rem;
+    padding-top: 9.1rem;
+    margin-left: 6rem;
+    text-align: center;
+}
+
+#about .aboutInfo .aboutInfoTitle {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#about .aboutInfo .aboutInfoText {
+    margin-top: 2.1rem;
+    margin-bottom: 2.25rem;
+    font-size: 1.55rem;
+    line-height: 2.6rem;
+}
+
+#about .aboutInfo .signatureHolder {
+    text-align: right;
+}
